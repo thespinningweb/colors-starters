@@ -21,7 +21,7 @@ html, body {
 header {
   height: 300px;
   width: 100%;
-  background: #04eef7;
+  background: #e3e3e3;
 }
 
 
@@ -34,15 +34,15 @@ header {
 }
 
 #column-1 {
-  background: #192ac7;
+  background: #d5d5d5;
 }
 
-#column-2 {
-  background: #b3b44c;
+#column-2{
+  background: #c4c4c4;
 }
 
-#column-3 {
-  background: #b41a1a;
+#column-3{
+  background: #b7b7b7;
 }
 
 
@@ -51,57 +51,65 @@ header {
 footer {
   width: 100%;
   height: 30px;
-  background: #29b8bd;
+  background: #e3e3e3;
 }
 
 
 /*---------- TABLET ----------*/
-/* Change the background colors below */
+/* Change the colors below */
 
 @media (min-width: 768px) {
   header {
-    background-color: #794848;
+    background-color: #666;
   }
 
   #column-1 {
-    background-color: #45b667;
+    background-color: #e3e3e3;
   }
 
   #column-2 {
-    background-color: #8a0e6b;
+    background-color: #CCC;
   }
 
   #column-3 {
-    background-color: #6dad24;
+    background-color: #999;
+    width: 100%;
   }
 
   footer {
-    background-color: #886c6c;
+    background-color: #666;
   }
-  
+
+  .col-3 {
+    width: 50%;
+  }
 }
 
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
-    background-color: #ceaa46;
+    background-color: #000;
   }
 
   #column-1 {
-    background-color: #c5ecb2;
+    background-color: #999;
   }
 
   #column-2 {
-    background-color: #6f62aa;
+    background-color: #666;
   }
 
   #column-3 {
-    background-color: #dba3d8;
+    background-color: #333;
+    width: 33.3%;
   }
 
   footer {
-    background-color: #3a0606;
+    background-color: #000;
   }
-   
+
+  .col-3 {
+    width: 33.3%;
+  }
 }
